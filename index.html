@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <script src='calc.js'defer></script>
+</head>
+<style>
+button{
+    border:1 px solid black;
+    width:33%;
+    background-color:grey;
+}
+</style>
+<script>
+    var val1=parseFloat(document.getElementById).value;
+    var val2=parseFloat(document.getElemntById).value;
+    function onclick()
+    {
+       let btn=document.getElementById('Addition');
+       btn=addListener(onclick,addition);
+       document.getElementById=Addition.value=val1+val2;
+       let btn=document.getElementById('Subtraction');
+       btn=addListener(onclick,value);
+       document.getElementById=Addition.value=val1-val2;
+       let btn=document.getElementById('Multiplication');
+       btn=addListener(onclick,value);
+       document.getElementById=Addition.value=val1*val2;
+       let btn=document.getElementById('Division');
+       btn=addListener(onclick,value);
+       document.getElementById=Addition.value=val1/val2;
+    }
+</script>
+<body>
+    <table border=1 cell-padding:10 px>
+        <tr>
+            <td><th>SIMPLE CALCULATOR</th></td>
+        </tr>
+        <tr>
+            <td>value1:</td><td><input type='text' value='0'></td>
+        </tr>
+        <tr>
+            <td>value2:</td><td><input type='text' value='0'></td>
+        </tr>
+        <tr>
+            <td><button type='addition' name='addition' id='addition'>add</button></td>
+        
+        <td><button type='subtraction' name='subtraction' id='subtracion'>sub</button></td></tr>
+        <tr><td><button type='multiplication' name='multiplication' id='multiplication'>mul</button></td>
+        <td><button type='division' name='division' id='division'>Division</button></td></tr>
+        <tr><td><button type='ANSWER:'>ANSWER</button></td>
+            <td><button.onclick(value);></button></td>
+            </tr>
+        </table>
+    
+</body>
+</html>
